@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Item Number -->
+    <TextView
+        android:id="@+id/textViewItemNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_number"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Diary Title -->
+    <TextView
+        android:id="@+id/textViewDiaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diary_title"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp" />
+
+    <!-- Location -->
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locationTown"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/text" />
+
+</LinearLayout>

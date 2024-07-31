@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DigitalDiary</string>
+    <string name="add_diary">Add Diary</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="play_voice">Play Voice</string>
+    <string name="save_entry">Save Entry</string>
+    <string name="enter_your_note">Enter your note</string>
+    <string name="record_voice">Record Voice</string>
+    <string name="enter_your_title">Enter your title</string>
+    <string name="photo">Photo</string>
+    <string name="location">Location:</string>
+    <string name="no_recording_yet">No recording yet</string>
+    <string name="enter_text_here">Enter text here</string>
+    <string name="add_text">Add Text</string>
+    <string name="save_edited_pic">Save Edited Pic</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_to_diary_application">Welcome to Diary Application</string>
+    <string name="diary_title">Diary Title</string>
+    <string name="item_number">Item Number</string>
+    <string name="locationTown">Location</string>
+</resources>

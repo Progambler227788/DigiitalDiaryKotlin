@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <ja.burhanrashid52.photoeditor.PhotoEditorView
+        android:id="@+id/photoEditorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40sp"
+        android:scaleType="fitXY"
+        app:photo_src="@drawable/ideas" />
+
+    <EditText
+        android:id="@+id/dataEnter"
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        android:minHeight="100sp"
+        android:inputType="text"
+        android:layout_below="@id/photoEditorView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/enter_text_here"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/addText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/dataEnter"
+        android:backgroundTint="@color/lightBlue"
+        android:text="@string/add_text"
+        android:textColor="@color/text" />
+
+    <Button
+        android:id="@+id/saveImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/addText"
+        android:backgroundTint="@color/lightBlue"
+        android:text="@string/save_edited_pic"
+        android:textColor="@color/text" />
+
+</RelativeLayout>
+
+</ScrollView>

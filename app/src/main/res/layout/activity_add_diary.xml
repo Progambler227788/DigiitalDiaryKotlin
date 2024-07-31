@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDiary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddDiary">
+    <!-- Text note input -->
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_title"
+        android:inputType="text"
+        android:minHeight="60dp"
+        android:autofillHints="title" />
+
+    <!-- Text note input -->
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_note"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp"
+        android:autofillHints="note" />
+
+    <!-- Location marker -->
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:layout_marginTop="16dp" />
+
+
+
+    <ja.burhanrashid52.photoeditor.PhotoEditorView
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#CCCCCC"
+        android:clickable="true"
+        android:contentDescription="@string/photo"
+        />
+
+
+    <Button
+        android:id="@+id/buttonAddPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/lightBlue"
+        android:textColor="@color/text"
+        android:text="@string/add_photo" />
+
+    <!-- Voice recording -->
+    <Button
+        android:id="@+id/buttonRecordVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/lightBlue"
+        android:textColor="@color/text"
+        android:text="@string/record_voice" />
+
+
+    <Button
+        android:id="@+id/buttonPlayVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/lightBlue"
+        android:textColor="@color/text"
+        android:text="@string/play_voice" />
+
+    <TextView
+        android:id="@+id/textViewVoiceRecording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/lightBlue"
+        android:textColor="@color/text"
+        android:text="@string/no_recording_yet" />
+
+    <!-- Save entry button -->
+    <Button
+        android:id="@+id/buttonSaveEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/lightBlue"
+        android:textColor="@color/text"
+        android:text="@string/save_entry" />
+
+</LinearLayout>
+</ScrollView>
+
+
